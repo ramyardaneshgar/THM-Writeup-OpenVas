@@ -4,7 +4,7 @@ Writeup for TryHackMe OpenVas Lab - Enterprise-grade vulnerability scanning, rep
 By Ramyar Daneshgar
 
 ##  Objective  
-The goal of this room was to understand OpenVAS, part of the Greenbone Vulnerability Management (GVM) framework, and its utility in enterprise-grade vulnerability management pipelines. This walkthrough reflects how I explored its architecture, deployed it securely via Docker, executed scans, and interpreted vulnerability findings using real-world CVEs like MS17-010.
+The goal of this lab was to understand OpenVAS, part of the Greenbone Vulnerability Management (GVM) framework, and its utility in enterprise-grade vulnerability management pipelines. This walkthrough reflects how I explored its architecture, deployed it securely via Docker, executed scans, and interpreted vulnerability findings using real-world CVEs like MS17-010.
 
 ---
 
