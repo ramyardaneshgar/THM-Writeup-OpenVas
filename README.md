@@ -13,7 +13,7 @@ I began by familiarizing myself with the OpenVAS component and its integration i
 
 ###  Key Technical Concept  
 - **NVTs:** Written in NASL (Nessus Attack Scripting Language), these are scripts that OpenVAS uses to check for known vulnerabilities.
-- **Feed Updates:** Ensuring the feed is up-to-date is critical for identifying the latest threats (e.g., zero-day vulnerabilities, CVEs).
+- **Feed Updates:** Ensuring the feed is up-to-date is critical for identifying the latest threats (zero-day vulnerabilities, CVEs).
 
 ---
 
@@ -144,7 +144,7 @@ OpenVAS sends a **crafted SMB transaction with FID = 0**. If the server responds
 ###  Vulnerability 5: TCP Timestamping
 
 **Threat:** Low  
-**Impact:** Leaks system uptime; can aid in fingerprinting or uptime-based attacks (e.g., reboot-sensitive exploits).  
+**Impact:** Leaks system uptime; can aid in fingerprinting or uptime-based attacks (reboot-sensitive exploits).  
 **Fix:** Disable via `sysctl` or `netsh` on Windows.
 
 ---
